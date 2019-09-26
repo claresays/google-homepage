@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.logo {
+    position: relative;
+    padding: 100px 0px 0px 0px;
+    margin: 100px auto auto auto;
+    text-align: center;
+}
+
+.searchbar {
+    text-align: center;
+}
+
+#bar {
+    padding: 5px 4px 10px 40px;
+    margin: 5px auto 20px auto;
+    width: 570px;
+    height: 25px;
+    text-align: left;
+    border-radius: 40px;
+    font-size: 15px;
+    float: center;
+}
+
+#searchicon {
+    position: absolute;
+    height: 15px;
+    opacity: 0.5;
+    padding: 20px 2px 0px 14px;
+}
+
+
+#button {
+    -webkit-appearance: none;
+    position: relative;
+    margin: 10px 5px 10px auto;
+    min-width: 150px;
+    height: 40px;
+    font-size: 15px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 0px;
+    border-style: hidden;
+    float: center;
+}
+
+#button:hover {
+    position: relative;
+    background-color: #f2f2f2;
+    border: 1px;
+    border-style: solid;
+    border-color: darkgray;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-size: 14px;
+
+}
+
+li {
+    display: inline;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+.searchbar {
+
+    padding: 100px;
+}
+
+li.left {
+    float: left;
+}
+li.right {
+    float: right;
+
+}
+
+.navbar {
+    overflow: hidden;
+    line-height: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+footer {
+    background-color: #f2f2f2;
+    overflow: hidden;
+    display: block;
+    position: fixed;
+    line-height: 20px;
+    bottom: 0;
+    width: 100%;
+
+}
+
+#signin {
+    -webkit-appearance: none;
+    background-color: dodgerblue;
+    min-width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 15px;
+    align-content: center;
+    border-style: hidden;
+    color: white;
+}
